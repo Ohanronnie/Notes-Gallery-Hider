@@ -1,0 +1,323 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: normal;
+}
+.search{
+    width:7px;
+   
+    
+}
+.added-note{
+  font-family: 'Oxygen', serif;
+  color: red;
+  width: 96%;
+  height: 10vh;
+  margin-top: ;
+  margin-left: 2%;
+  margin-right: 2%;
+  box-shadow: 1px 1px 6px #999,
+  -1px -1px -6px #fff;
+    background: linear-gradient(145deg, #fff, #ffffff);
+
+}
+.icon button{
+  margin-top: 19px;
+ margin-left: 30px;
+ width: 20px;
+ height: 20px;
+  background-color: #e6e7ee;  border: none;border-radius: 1px;background: linear-gradient(260deg, #cfd0d6, #f6f7ff);box-shadow: 0.4px 0.4px 1.3px #919296,-0.4px -0.4px 1.3px #ffffff;
+}
+.icon button:first-child{
+margin-left: -7px;
+}
+#i-sec:hover .search{
+   
+}
+.bottom {
+  margin-top: 30%;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.navbar #i-first{
+  margin-left: 5vw;
+  margin-top: 4vh;
+  color: white;
+  font-size: 30px;
+}
+.navbar{
+  background-color: #008fff; 
+  width: 100%;
+  height: 9.3vh;
+  position: fixed;
+  top: 0px;
+  box-shadow: 0px 0px 0px 1px #919296;
+}
+.navbar span{
+  color: white;
+  margin-left: 35vw;
+    font-size: 30px;
+
+}
+.add{
+  background-color: rgba(0, 134, 255, 1);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 80%;
+  right: 10%;
+  padding-top: 40px;
+  padding-left: 41px;
+  color: white;
+}
+.i-first {
+  position: relative;
+  display: inline-block;
+}
+#i-omale{
+  font-size: 35px;
+  margin-top: 4vh;
+  color: white;
+  margin-right: 3vh;
+  float: right;
+}
+div .added-note:first-child{
+  margin-top: 80px; background: linear-gradient(145deg, #fff, #ffffff);
+    box-shadow: 0.4px 0.4px 1.3px #999999, -0.4px -0.4px 1.3px #999;
+    margin-top: 13vh;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 10px;
+    width: 96%;
+    height: 20vh;
+}
+.added-note{
+  margin-top: 80px; background: linear-gradient(145deg, #fff, #ffffff);
+    box-shadow: 0.4px 0.4px 1.3px #999999, -0.4px -0.4px 1.3px #999;
+    margin-top: 5vh;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 10px;
+    width: 96%;
+}
+.tooltiptext {
+  height: 7vh;
+  visibility: hidden;
+  width: 55vw;
+  color: black;
+  z-index: 10;
+  border-radius: 6px;
+  position: absolute;
+  top: 30%;
+  right: -650%;
+    padding-top: -50px;
+
+  padding-left: 10px;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #fff, #ffffff);
+  box-shadow: 1px 1px 3px #999999,
+    -1px -1px 3px #999;
+}
+.tooltiptext a{
+  color: dimgrey;
+  margin-left: 2vh;
+  background-color: transparent; 
+  text-decoration: none;
+}
+.i-first:hover .tooltiptext {
+  visibility: visible;
+}
+.addtitle, .addcont{
+   margin-top: 15vh;
+   border-radius: 20px;
+   width: 90%;
+   height: 9vh;
+   margin-left: 5vw;
+   margin-right: 5vw;
+
+}
+.title:hover, .title:focus ,.content hover, .content:focus{
+outline: 1.7px solid #00c0ff}
+.title, .content{
+    width: 100%;
+    height: 100%;
+    background-color: #E8F9FD;
+    color: #000a0d;
+    border: none;
+    border-radius: 5px 5px 0 0;
+}
+.content{
+    border-radius: 0 0 10px 10px;
+}
+.hidden {display:none}
+
+.addcont{
+    margin-top: 3vh;
+   
+   width: 90%;
+   height: 30vh;
+   margin-left: 5vw;
+   margin-right: 5vw;
+}
+.dis-turb{
+  margin-left: 35%; margin-right: ; margin-top: 80%; color: grey;
+
+}
+.add {
+  position: relative;
+  display: inline-block;
+}
+
+.filestoadd {
+  text-decoration: none;
+  visibility: hidden;
+  width: 120px;
+  background-color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding-bottom: 5px;
+ padding-left: 8px;
+  padding-top: 5px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  box-shadow: 1px 1px 3px #999999,    -1px -1px 3px #999;
+margin-bottom: 15px;
+}
+.filestoadd a{
+  color: black;
+  text-decoration: none;
+}
+.add:hover .filestoadd {
+  visibility: visible;
+}
+@media only screen and (max-width: 735px){
+  .dis-turb{
+    margin-left: 24%; margin-right: ; margin-top: 76%; color: grey;
+font-size: 10px;
+  }
+.navbar #i-first{
+  margin-left: 5vw;
+      font-size: 10px;
+
+  margin-top: 3.7vh;
+  color: white;
+}
+.navbar{
+  background-color: #008fff; 
+  width: 100%;
+  height: 9.3vh;
+  position: fixed;
+  top: 0px;
+  box-shadow: 0px 0px 0px 1px #919296;
+}
+.navbar #i-sec{
+  color: white;
+  float: right;
+  margin-top: 3.7vh;
+  margin-right: 3vh;
+      font-size: 10px;
+}
+.navbar #i-omale{
+  font-size: 15px;
+  margin-top: 3.0vh;
+  color: white;
+  margin-right: 3vh;
+  float: right;
+}
+.navbar span{
+  color: white;
+  margin-left: 33vw;
+      font-size: 11px;
+
+}
+.add{
+  background-color: rgba(0, 134, 255, 1);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  top: 80%;
+  right: 10%;
+  padding-top: 16px;
+  padding-left: 17px;
+  color: white;
+  box-shadow: 1px 1px 1pc 1px rgba(0, 0, 0, 0.3);
+}
+.i-first {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltiptext {
+  height: 25vh;
+  visibility: hidden;
+  width: 65vw;
+  color: black;
+  z-index: 10;
+  border-radius: 6px;
+  position: absolute;
+  top: 30%;
+  right: -800%;
+    padding-top: 10px;
+
+  padding-left: 10px;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #fff, #ffffff);
+  box-shadow: 1px 1px 3px #999999,    -1px -1px 3px #999;
+}
+.i-first:hover .tooltiptext {
+  visibility: visible;
+}
+.bottom{
+  margin-top: 30%;
+}
+
+.icon button{
+  margin-top: 19px;
+ margin-left: 30px;
+ width: 20px;
+ height: 20px;
+  background-color: #e6e7ee;  border: none;border-radius: 1px;background: linear-gradient(260deg, #cfd0d6, #f6f7ff);box-shadow: 0.4px 0.4px 1.3px #919296,-0.4px -0.4px 1.3px #ffffff;
+}
+.icon button:first-child{
+margin-left: -7px;
+}
+.add {
+  position: relative;
+  display: inline-block;
+}
+
+.filestoadd {
+  text-decoration: none;
+  visibility: hidden;
+  width: 120px;
+  background-color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding-bottom: 5px;
+ padding-left: 8px;
+  padding-top: 5px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 40%;
+  margin-left: -60px;
+  box-shadow: 1px 1px 3px #999999,    -1px -1px 3px #999;
+
+}
+.filestoadd a{
+  color: black;
+  text-decoration: none;
+}
+}

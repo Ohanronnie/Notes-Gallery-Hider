@@ -1,0 +1,157 @@
+body{
+  font-family: normal;
+  box-sizing: border-box;
+  padding: 0;
+  border-radius: 10px;
+  margin: 0;
+}
+.add{
+  background-color: rgba(0, 134, 255, 1);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  font-size: 30px;
+  position: fixed;
+  top: 80%;
+  right: 10%;
+  padding-top: 39px;
+  padding-left: 40px;
+  color: white;
+  box-shadow: 1px 1px 1pc 1px rgba(0, 0, 0, 0.3);
+}
+.navbar{
+  background-color: #008fff; 
+  width: 100%;
+  height: 7vh;
+  position: fixed;
+  top: 0px;
+  box-shadow: 0px 0px 0px 1px #919296, 0px 0px 0px 1px #fff;
+  padding-top: 4vh;
+}
+.pics {
+  position: relative;
+  display: inline-block;
+  margin-top: 35vh;
+  width: 100%;
+  text-align: center;
+}
+.pics .btn-add {
+  color: black;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -50%;
+}
+.img-over-all{
+    flex-flow: row wrap;
+display: flex;
+width: 100%;
+height: 100%;
+}
+.img-btn-add{
+  width: 90px;
+  height: 150px;
+  margin-right: 2vw;
+}
+.img-over-all{
+  margin-top: 15vh;
+  margin-left: 1vh;
+  margin-right: 1.5vh;
+}
+.img-over-all div{
+  border: 1px solid #333;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+.img-btn-add img{
+  width: 100px;
+  height: 70px;
+  
+}
+.img-over-all button{
+  background: linear-gradient(to right, transparent, #fff);
+  border: 1px solid black;
+  width: 90px;
+  height: 20px;
+  margin-bottom: 7px;
+}
+.btn-file{
+  width: 95%;
+  height: 7vh;
+  margin: 2%;
+  background: linear-gradient(to right,rgba(8, 153, 250, 1), rgba(123, 195, 243, 1));
+color: white;
+  border: none;
+  border-radius: 10px;
+}
+.filestoadd {
+  text-decoration: none;
+  visibility: hidden;
+  width: 120px;
+  background-color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding-bottom: 5px;
+ padding-left: 8px;
+  padding-top: 5px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  box-shadow: 1px 1px 3px #999999,    -1px -1px 3px #999;
+margin-bottom: 15px;
+}
+.filestoadd a{
+  color: black;
+  text-decoration: none;
+}
+.add:hover .filestoadd {
+  visibility: visible;
+}
+.addpics{
+  background-color: whitesmoke;
+  margin-top: 20vh;
+  border: 3px dotted #008fff;
+  margin-left: 1vh;
+  margin-right: 1vh;
+}
+@media only screen and (max-width: 735px){
+  .add-pics-note{
+  font-size: 10px;
+}
+
+.addpics{
+  margin-top: 20vh;
+  border: 3px dotted #008fff;
+}
+.add{
+  background-color: rgba(0, 134, 255, 1);
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  position: fixed;
+  top: 80%;
+  right: 10%;
+    font-size: 13pt;
+  padding-top: 18px;
+  padding-left: 18.5px;
+  color: white;
+  box-shadow: 1px 1px 1pc 1px rgba(0, 0, 0, 0.3);
+}
+.navbar {
+  background-color: #008fff;
+  width: 100%;
+  height: 7vh;
+  position: fixed;
+  top: 0px;
+  box-shadow: 0px 0px 0px 1px #919296, 0px 0px 0px 1px #fff;
+  padding-top: 3vh;
+    font-size: 14px;
+}
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./style-01.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'> 
+  <script src="https://kit.fontawesome.com/c46609e39d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open sans">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Add a new note</title>
+</head>
+
+<body>
+<nav class="navbar">
+    <!--this is to go back to the index / first page -->
+    <a style="text-decoration: none" href="added-notes.html">
+  <i id="i-first"class="fas fa-arrow-left"></i>
+  </a>
+  <!--this is to save the inputted note -->
+  <i id="i-omale" onclick="addNote()" class="fa fa-save"></i>
+</nav>
+<main>
+    <div class="addtitle">
+        <input type="text" class="title" placeholder="Title goes here.......">
+    </div>
+    <div class="addcont">
+        <input type="text" class="content" placeholder="Content goes here......">
+        <br> <br />
+  <center><button style="
+  border: 1px solid #999;
+  background-color: transparent;
+  " class="addnote" onclick="addNote()">Add To Note</button></center>
+    </div>
+</main>
+
+</div>
+    <script src="./note.js"></script>
+</body>
+
+</html>
