@@ -1,0 +1,15 @@
+
+body{
+  margin-top: 25vh;
+}
+.input-group-text{
+  font-size: 12px;
+}
+::placeholder{
+  font-size: 12px;
+}
+.btn{
+  font-size: 10px;
+  display: flex;
+  float: right;
+}
