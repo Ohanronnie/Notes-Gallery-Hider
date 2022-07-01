@@ -42,3 +42,15 @@ span{
   font-size: 10px;
   color: red;
 }
+a{
+  font-size: 11px;
+  margin-right: 3vw;
+  color: #333fff;
+  display: flex;
+  float: right;
+  text-decoration: none;
+}
+a:hover{
+  background-color: #008fff;
+  color: #fffff3;
+}
