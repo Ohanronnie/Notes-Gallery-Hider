@@ -1,13 +1,22 @@
+function setpass(){
+  if(localStorage.getItem('emerg_pass') == null){
+  var emerg_pass = window.prompt("\n \t \n Set your Emergency Password");
+  localStorage.setItem("emerg_pass", emerg_pass)
+  
+}/*
+else{ window.prompt("\n \t \n Set your Emergency Password")
+}*/
+}
+setInterval(setpass, 3000);
 loadFromLocalStorage();
 function loadFromLocalStorage() {
   var images = JSON.parse(localStorage.getItem("images"));
 
   if (images && images.length > 0) {
     imagesObject = images;
-
- //   displayNumberOfImgs();
     images.forEach(displayImgData);
   }
+  setpass();
 }
 
 function displayImgData(imgData, index) {
@@ -16,7 +25,10 @@ function displayImgData(imgData, index) {
 ">Delete <i class="fa fa-trash-o"></i></button></center>
 ` 
 ;
+
   document.getElementById('list').insertBefore(span, null);
+    setpass();
+
 }
 
 /* function displayNumberOfImgs() {
@@ -46,8 +58,8 @@ function deleteNote(index) {
    //  imagesObject = [];
   imagesObject.splice(index, 1);
   localStorage.setItem("images", JSON.stringify(imagesObject));
-
-  window.location="./Added-pictures.html"
+  window.location="./Added-pictures.html";
+ setpass();
 }
 
 //document.getElementById('deleteImgs').addEventListener("click", deleteImages);
