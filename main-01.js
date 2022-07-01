@@ -35,7 +35,10 @@ let html ;
     text-align: center;
   " class="Content">${notes[index].note_content}</p><br>
   <center><button id="${index}" onclick="deleteNote(this.id); localStorage.removeItem(this)" style="border:1px solid #999;
- background: linear-gradient(to right, rgba(255,255,255,0.1), #fff)">Delete Note</button></center>
+ background: linear-gradient(to right, rgba(255,255,255,0.1), #fff)">Delete Note</button>
+   <button id="${index}" style="border:1px solid #999;
+   background: linear-gradient(to right, rgba(255,255,255,0.1), #fff)">${notes[index].note_time}</button>
+</center>
   </div>`;
    }) 
     
