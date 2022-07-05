@@ -4,6 +4,10 @@ body{
   padding: 0;
   border-radius: 10px;
   margin: 0;
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1034%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M 0%2c4 C 57.6%2c64.6 172.8%2c259.6 288%2c307 C 403.2%2c354.4 460.8%2c222 576%2c241 C 691.2%2c260 748.8%2c404.2 864%2c402 C 979.2%2c399.8 1036.8%2c238.4 1152%2c230 C 1267.2%2c221.6 1382.4%2c334 1440%2c360L1440 560L0 560z' fill='%232264ab'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1034'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+background-repeat: no-repeat;
+background-size: 102vw 102vh;
+
 }
 .add{
   background-color: rgba(0, 134, 255, 1);
@@ -20,12 +24,12 @@ body{
   box-shadow: 1px 1px 1pc 1px rgba(0, 0, 0, 0.3);
 }
 .navbar{
-  background-color: #008fff; 
+  background-color: #246AB3; 
   width: 100%;
   height: 7vh;
   position: fixed;
   top: 0px;
-  box-shadow: 0px 0px 0px 1px #919296, 0px 0px 0px 1px #fff;
+  box-shadow: 0px 0px 0px 1px #999, 0px 0px 0px 1px #fff;
   padding-top: 4vh;
 }
 .pics {
@@ -57,12 +61,12 @@ height: 100%;
   margin-right: 2vw;
 }
 .img-over-all{
-  margin-top: 15vh;
+  margin-top: 12vh;
   margin-left: 1vh;
   margin-right: 1.5vh;
 }
 .img-over-all div{
-  border: 1px solid #333;
+  border: 1px solid #fff;
   margin-left: 5px;
   margin-top: 2px;
 }
@@ -72,13 +76,18 @@ height: 100%;
   
 }
 .img-over-all button{
-  background: linear-gradient(to right, transparent, #fff);
-  border: 1px solid black;
+  border: 1px solid #fff;
   width: 90px;
   height: 20px;
   margin-bottom: 7px;
+  color: white;
+  background-color: transparent;
+}
+.btn-add{
+  font-size: 3.5vw;
 }
 .btn-file{
+  font-size: 4vw;
   width: 95%;
   height: 7vh;
   margin: 2%;
@@ -123,7 +132,9 @@ margin-bottom: 15px;
   margin-right: 1vh;
 }
 @media only screen and (max-width: 735px){
-  .add-pics-note{
+  body{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='160' height='160' preserveAspectRatio='none' viewBox='0 0 160 160'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1111%26quot%3b)' fill='none'%3e%3crect width='160' height='160' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M4 160L164 0L257 0L97 160z' fill='url(%23SvgjsLinearGradient1112)'%3e%3c/path%3e%3cpath d='M142 160L-18 0L-112.5 0L47.5 160z' fill='url(%23SvgjsLinearGradient1113)'%3e%3c/path%3e%3cpath d='M75.68129217315231 160L160 75.68129217315231L160 160z' fill='url(%23SvgjsLinearGradient1112)'%3e%3c/path%3e%3cpath d='M0 160L84.31870782684769 160L 0 75.68129217315231z' fill='url(%23SvgjsLinearGradient1113)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1111'%3e%3crect width='160' height='160' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1112'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1113'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+}  .add-pics-note{
   font-size: 10px;
 }
 
@@ -146,12 +157,13 @@ margin-bottom: 15px;
   box-shadow: 1px 1px 1pc 1px rgba(0, 0, 0, 0.3);
 }
 .navbar {
-  background-color: #008fff;
+  background-color: #246AB3; 
+  border: 1px solid white;
   width: 100%;
   height: 7vh;
   position: fixed;
   top: 0px;
-  box-shadow: 0px 0px 0px 1px #919296, 0px 0px 0px 1px #fff;
+   box-shadow: 1px 1px 5px #999,-1px -1px 5px #fff;
   padding-top: 3vh;
     font-size: 14px;
 }
