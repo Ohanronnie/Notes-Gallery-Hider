@@ -29,13 +29,17 @@ else notes = JSON.parse(savedNotes);
 // add notes function 
 
 function addNote(){
+  if(title.value != "" && text.value != ""){
     notes.push({
       note_title: title.value,
       note_content: text.value,
       note_time: datee
     });
-
     localStorage.setItem("savedNotes2", JSON.stringify(notes))
     
     window.location = "./added-notes.html"
+  }
+    else{
+      alert("Your note must have a content")
+    }
   };
